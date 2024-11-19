@@ -1,0 +1,63 @@
+body {
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.card {
+ background-color: rgb(19, 17, 17);
+ width: 14rem;
+ margin: auto;
+ margin-top:10rem;
+ color: white;
+ padding: 40px;
+ border-radius: 0.6rem;
+ text-align: center;
+}
+
+.userImage {
+  width: 8rem;
+  height: 8rem;
+  margin: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 15px;
+  color:greenyellow
+}
+
+p {
+  font-size: 10px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  background: rgb(44, 41, 41);
+  padding: 6px;
+  margin: 6px;
+  border-radius: 0.5rem;
+  font-size: 11px;
+  font-weight: bold;
+
+}
+
+a:hover {
+  background-color: yellowgreen;
+  color:black;
+  transition: all;
+  transition-duration: 1s;
+}
+
